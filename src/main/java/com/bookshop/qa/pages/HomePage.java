@@ -32,11 +32,13 @@ public class HomePage extends BaseClass {
         addToCart.click();
     }
 
-    public void categories() throws InterruptedException{
+    public Category categories() throws InterruptedException{
 
+        ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", biographyCategory);
+        Thread.sleep(2000);
         biographyCategory.click();
 
-        new Biography();
+        return new Category();
     }
 
     public void cart(){

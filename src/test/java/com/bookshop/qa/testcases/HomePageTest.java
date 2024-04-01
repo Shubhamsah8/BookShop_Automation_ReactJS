@@ -52,12 +52,4 @@ public class HomePageTest extends BaseClass {
         Assert.assertEquals(actualBookTitle, "Bleach Volume 1", "The actual book title does not match the expected one.");
     }
 
-    @Test(priority = 2)
-    @Description("Verify category functionality")
-    @Severity(SeverityLevel.NORMAL)
-    @Story("Category")
-    public void categoryTest() throws InterruptedException {
-        Thread.sleep(5000);
-
-    }
 }

@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ec28cd5-aacb-4800-9d58-61d14393493a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bookshop/qa/baseclass/BaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bookshop/qa/config/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bookshop/qa/pages/Biography.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bookshop/qa/pages/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bookshop/qa/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bookshop/qa/listener/TestListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bookshop/qa/testcases/CategoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bookshop/qa/testcases/HomePageTest.java" afterDir="false" />
+    <list default="true" id="7ec28cd5-aacb-4800-9d58-61d14393493a" name="Changes" comment="Automating ReactJS Application">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookshop/qa/pages/Biography.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bookshop/qa/pages/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookshop/qa/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bookshop/qa/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bookshop/qa/testcases/CategoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bookshop/qa/testcases/CategoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bookshop/qa/testcases/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bookshop/qa/testcases/HomePageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2eVUfo1vtfyiUNcEEIQrF1hbr3Q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,6 +41,8 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.CategoryTest.categoryTest.executor": "Run",
     "TestNG.HomePageTest.CartTest.executor": "Run",
     "TestNG.HomePageTest.executor": "Run",
     "TestNG.HomePageTest.searchBookTest.executor": "Run",
@@ -62,7 +56,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.HomePageTest.searchBookTest">
+  <component name="RunManager" selected="TestNG.CategoryTest.categoryTest">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,6 +64,24 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CategoryTest.categoryTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BookShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bookshop.qa.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bookshop.qa.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.bookshop.qa.testcases.CategoryTest" />
+      <option name="METHOD_NAME" value="categoryTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,6 +141,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CategoryTest.categoryTest" />
         <item itemvalue="TestNG.HomePageTest.searchBookTest" />
         <item itemvalue="TestNG.HomePageTest.CartTest" />
         <item itemvalue="TestNG.HomePageTest" />
@@ -151,6 +164,19 @@
       <option name="presentableId" value="Default" />
       <updated>1711986565270</updated>
     </task>
+    <task id="LOCAL-00001" summary="Automating ReactJS Application">
+      <option name="closed" value="true" />
+      <created>1711992371192</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711992371192</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Automating ReactJS Application" />
+    <option name="LAST_COMMIT_MESSAGE" value="Automating ReactJS Application" />
   </component>
 </project>

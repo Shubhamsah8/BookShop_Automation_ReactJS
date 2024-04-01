@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Biography extends BaseClass {
+public class Category extends BaseClass {
 
     @FindBy(xpath = "//div[@title='The Story of My Life'")
     WebElement helenKeller;
@@ -13,7 +13,7 @@ public class Biography extends BaseClass {
     @FindBy(xpath = "//*[@id=\"pro\"]/div/div[2]/button")
     WebElement addToCartHK;
 
-    public Biography() {
+    public Category() {
         PageFactory.initElements(driver, this);
     }
 
